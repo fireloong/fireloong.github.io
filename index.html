@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Symfony 4.4 文档</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/doc.css">
+</head>
+<body id="top" class="light-theme linux">
+<div id="content_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="hidden-xs m-b-30 doc__nav">
+                    <div class="panel">
+                        <div class="panel-heading">入门</div>
+                        <div class="panel-body">
+                            <ul class="list--unstyled">
+                                <li><a href="setup.html">安装程序</a></li>
+                                <li><a href="page_creation.html">创建页面</a></li>
+                                <li><a href="routing.html">路由</a></li>
+                                <li><a href="controller.html">控制器</a></li>
+                                <li><a href="templates.html">模板</a></li>
+                                <li><a href="configuration.html">配置</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <a id="doc-menu-guides">
+                                <span>指南</span>
+                                <i class="icon icon--small icon--gray-light pull-right"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45L531 45q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"/></svg></i>
+                            </a>
+                        </div>
+                        <div id="doc-menu-guides-content" class="d-none">
+                            <div class="panel-body columns--two">
+                                <ul>
+                                    <li><a href="bundles.html">Bundles</a></li>
+                                    <li><a href="cache.html">缓存</a></li>
+                                    <li><a href="console.html">控制台</a></li>
+                                    <li><a href="contributing/index.html">贡献</a></li>
+                                    <li><a href="doctrine.html">数据库 (Doctrine ORM)</a></li>
+                                    <li><a href="deployment.html">部署</a></li>
+                                    <li><a href="event_dispatcher.html">事件调度器</a></li>
+                                    <li><a href="setup/flex.html">Flex</a></li>
+                                    <li><a href="forms.html">表单</a></li>
+                                    <li><a href="frontend.html">前端</a></li>
+                                    <li><a href="http_cache.html">HTTP 缓存</a></li>
+                                    <li><a href="logging.html">日志</a></li>
+                                    <li><a href="mailer.html">邮件（email）</a></li>
+                                    <li><a href="messenger.html">Messenger</a></li>
+                                    <li><a href="performance.html">性能</a></li>
+                                    <li><a href="profiler.html">分析器</a></li>
+                                    <li><a href="security.html">安全</a></li>
+                                    <li><a href="serializer.html">序列化器</a></li>
+                                    <li><a href="service_container.html">服务容器</a></li>
+                                    <li><a href="session.html">Sessions</a></li>
+                                    <li><a href="testing.html">测试</a></li>
+                                    <li><a href="translation.html">翻译（i18n）</a></li>
+                                    <li><a href="validation.html">验证</a></li>
+                                    <li><a href="weblink.html">WebLink</a></li>
+                                    <li><a href="workflow.html">工作流程</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <a id="doc-menu-components">
+                                <span>组件</span>
+                                <i class="icon icon--small icon--gray-light pull-right"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45L531 45q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"/></svg></i>
+                            </a>
+                        </div>
+                        <div id="doc-menu-components-content" class="d-none">
+                            <div class="panel-body columns--three">
+                                <ul>
+                                    <li><a href="components/asset.html">资源</a></li>
+                                    <li><a href="components/browser_kit.html">浏览器套件</a></li>
+                                    <li><a href="components/cache.html">缓存</a></li>
+                                    <li><a href="components/config.html">配置</a></li>
+                                    <li><a href="components/console.html">控制台</a></li>
+                                    <li><a href="components/contracts.html">协议</a></li>
+                                    <li><a href="components/css_selector.html">CSS 选择器</a></li>
+                                    <li><a href="components/dependency_injection.html">依赖注入</a></li>
+                                    <li><a href="components/dom_crawler.html">文档爬虫</a></li>
+                                    <li><a href="components/dotenv.html">解析 env</a></li>
+                                    <li><a href="components/error_handler.html">错误处理</a></li>
+                                    <li><a href="components/event_dispatcher.html">事件调度器</a></li>
+                                    <li><a href="components/expression_language.html">表达式语言</a></li>
+                                    <li><a href="components/filesystem.html">文件系统</a></li>
+                                    <li><a href="components/finder.html">查找器</a></li>
+                                    <li><a href="components/form.html">表单</a></li>
+                                    <li><a href="components/http_client.html">HTTP 客户端</a></li>
+                                    <li><a href="components/http_foundation.html">HTTP 基层</a></li>
+                                    <li><a href="components/http_kernel.html">HTTP 内核</a></li>
+                                    <li><a href="components/inflector.html">偏转器</a></li>
+                                    <li><a href="components/intl.html">国际</a></li>
+                                    <li><a href="components/ldap.html">Ldap</a></li>
+                                    <li><a href="components/lock.html">锁</a></li>
+                                    <li><a href="components/mailer.html">邮件程序</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <main class="col-sm-9">
+                <h1>Symfony 4.4 文档</h1>
+                <section>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h2>入门</h2>
+                            <p>从这里开始学习使用 Symfony 开发 web 应用程序的基本知识。</p>
+                            <ul class="list--unstyled">
+                                <li>
+                                    <span class="text-small">第一章：</span>
+                                    <a href="setup.html">安装程序</a>
+                                </li>
+                                <li>
+                                    <span class="text-small">第二章：</span>
+                                    <a href="page_creation.html">创建页面</a>
+                                </li>
+                                <li>
+                                    <span class="text-small">第三章：</span>
+                                    <a href="routing.html">路由</a>
+                                </li>
+                                <li>
+                                    <span class="text-small">第四章：</span>
+                                    <a href="controller.html">控制器</a>
+                                </li>
+                                <li>
+                                    <span class="text-small">第五章：</span>
+                                    <a href="templates.html">模板</a>
+                                </li>
+                                <li>
+                                    <span class="text-small">第六章：</span>
+                                    <a href="configuration.html">配置</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr class="xs-separator">
+                        <div class="col-sm-6">
+                            <h3 class="m-b-5"><a href="components/index.html" class="link">Symfony 组件</a></h3>
+                            <p class="m-b-30">可以在任何 PHP 应用程序中使用的独立库。</p>
+                            <h3 class="m-b-5"><a href="bundles/index.html" class="link">Symfony 捆绑包</a></h3>
+                            <p class="m-b-30">为 Symfony 应用程序提供特性的可重用包。</p>
+                            <h3 class="m-b-5"><a class="link" href="reference/index.html">Symfony 参考</a></h3>
+                            <p class="m-b-0">表单类型、DI 标记和解释的每个 Symphony 配置选项。</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2>指南和教程</h2>
+                    <ul class="tag-cloud">
+                        <li><a href="bundles.html">Bundles</a></li>
+                        <li><a href="cache.html">缓存</a></li>
+                        <li><a class="important" href="console.html">控制台</a></li>
+                        <li><a href="contributing/index.html">贡献</a></li>
+                        <li><a class="very-important" href="doctrine.html">数据库（Doctrine ORM）</a></li>
+                        <li><a href="deployment.html">部署</a></li>
+                        <li><a href="event_dispatcher.html">事件调度器</a></li>
+                        <li><a class="important" href="setup/flex.html">Flex</a></li>
+                        <li><a class="very-important" href="forms.html">表单</a></li>
+                        <li><a href="frontend.html">前端</a></li>
+                        <li><a href="http_cache.html">HTTP 缓存</a></li>
+                        <li><a href="logging.html">日志</a></li>
+                        <li><a class="important" href="mailer.html">邮件（email）</a></li>
+                        <li><a href="messenger.html">Messenger</a></li>
+                        <li><a href="performance.html">性能</a></li>
+                        <li><a href="profiler.html">分析器</a></li>
+                        <li><a class="important" href="security.html">安全</a></li>
+                        <li><a href="serializer.html">序列化器</a></li>
+                        <li><a class="very-important" href="service_container.html">服务容器</a></li>
+                        <li><a href="session.html">Sessions</a></li>
+                        <li><a href="testing.html">测试</a></li>
+                        <li><a href="translation.html">翻译（i18n）</a></li>
+                        <li><a href="validation.html">验证</a></li>
+                        <li><a href="weblink.html">WebLink</a></li>
+                        <li><a href="workflow.html">工作流程</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h3 class="m-b-5"><a class="link" href="best_practices.html">Symfony 最佳实践</a></h3>
+                            <p class="m-b-30">了解如何按照 Symfony 创建者的设想开发应用程序。</p>
+                            <h3 class="m-b-5"><a class="link" href="create_framework/index.html">创建自己的框架</a></h3>
+                            <p class="m-b-30">通过使用 Symfony 组件来提高创建有趣的框架的技能。</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h3 class="m-b-5"><a class="link" href="contributing/index.html">为 Symfony 贡献</a></h3>
+                            <p class="m-b-30">成为社区的积极成员，并帮助我们改善 Symfony。</p>
+                            <h3 class="m-b-5"><a class="link" href="current/cmf/index.html">Symfony CMF</a></h3>
+                            <p class="m-b-0">为 Symfony 应用程序构建 CMS 的捆绑包集合。</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <div class="col-sm-12">
+                <div class="m-t-45 m-b-45">&emsp;</div>
+                <div class="m-t-45 m-b-45">&emsp;</div>
+                <div class="m-t-45 m-b-45">&emsp;</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="side__left" data-spy="affix">
+    <a href="https://symfony.com/doc/4.4/index.html" target="_blank">英文版</a>
+    <a href="#top">Top</a>
+</div>
+<script type="text/javascript" src="js/runtime.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/doc.js"></script>
+<script type="text/javascript" src="js/modules.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
